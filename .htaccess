@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Przekierowanie 301
+RewriteRule ^subpages/podlogi /podlogi [R=301,L]
+
+# Wlasne strony bledow
+ErrorDocument 404 /subpages/error.html
