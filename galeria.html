@@ -82,7 +82,23 @@
                 <h2>Zobacz galerie wykonanych przez nas zleceń</h2>
 
                 <div id="gallery">
-                    <img src="">
+                    <img onclick="openImage(this)" src="./img/gallery/1.jpg">
+                    <img onclick="openImage(this)" src="./img/gallery/2.jpg">
+
+                    <div id="fullscreen">
+                        <div id="left" onclick="prevImage()" >
+                            <i class="icon-left-open"></i>
+                        </div>
+
+                        <img id="fullscreenImg">
+
+                        <div id="right" onclick="nextImage()">
+                            <i class="icon-right-open"></i>
+                        </div>
+                        <div id="close" onclick="closeImage()">
+                            <i class="icon-cancel"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -110,5 +126,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="./js/gallery.js"></script>
     </body>
 </html>
