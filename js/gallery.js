@@ -1,4 +1,4 @@
-let imgCount = 2;
+let imgCount = 4;
 let imgNow = 0;
 
 function openImage(el) {

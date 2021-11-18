@@ -340,6 +340,31 @@ section#content div#inside div#gallery div#fullscreen img {
     height: 70%;
 }
 
+section#content div#loga {
+    width: 1200px;
+}
+
+section#content div#loga div#up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+section#content div#loga div#down {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+section#content div#loga div#up img {
+    width: 300px;
+    height: auto;
+}
+
 footer{
     width: 100%;
     height: 250px;
